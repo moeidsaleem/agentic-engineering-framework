@@ -36,6 +36,9 @@ The foundational constitution that defines agent behavior, decision-making proto
 
 > **Important:** Treat the Manifest as infrastructure-as-code. When updating, replace the entire file to prevent configuration drift.
 
+**Links:**
+- [View manifest.md](manifest.md) | [GitHub](https://github.com/moeidsaleem/agentic-engineering-framework/blob/main/manifest.md) | [Raw](https://raw.githubusercontent.com/moeidsaleem/agentic-engineering-framework/main/manifest.md)
+
 ### 2. The Workflow Templates (`workflows/`)
 
 Structured execution templates that guide agents through specific task types. Each workflow enforces a rigorous, repeatable process.
@@ -46,21 +49,21 @@ Structured execution templates that guide agents through specific task types. Ea
 - `🚧` - Blocked, requires human input
 - `🔍` - Investigation in progress
 
-| Workflow | Purpose | When to Use |
-|----------|---------|-------------|
-| **build.md** | Feature development & system enhancement | Creating new features, refactoring, planned improvements |
-| **diagnose.md** | Deep debugging & root cause analysis | Persistent bugs, system failures, complex issues |
-| **migrate.md** | Data migration & system transformation | Database migrations, schema changes, data transformations |
-| **evolve.md** | Framework improvement & learning capture | End of session to improve the framework itself |
+| Workflow | Purpose | When to Use | Links |
+|----------|---------|-------------|-------|
+| **build.md** | Feature development & system enhancement | Creating new features, refactoring, planned improvements | [View](workflows/build.md) \| [GitHub](https://github.com/moeidsaleem/agentic-engineering-framework/blob/main/workflows/build.md) \| [Raw](https://raw.githubusercontent.com/moeidsaleem/agentic-engineering-framework/main/workflows/build.md) |
+| **diagnose.md** | Deep debugging & root cause analysis | Persistent bugs, system failures, complex issues | [View](workflows/diagnose.md) \| [GitHub](https://github.com/moeidsaleem/agentic-engineering-framework/blob/main/workflows/diagnose.md) \| [Raw](https://raw.githubusercontent.com/moeidsaleem/agentic-engineering-framework/main/workflows/diagnose.md) |
+| **migrate.md** | Data migration & system transformation | Database migrations, schema changes, data transformations | [View](workflows/migrate.md) \| [GitHub](https://github.com/moeidsaleem/agentic-engineering-framework/blob/main/workflows/migrate.md) \| [Raw](https://raw.githubusercontent.com/moeidsaleem/agentic-engineering-framework/main/workflows/migrate.md) |
+| **evolve.md** | Framework improvement & learning capture | End of session to improve the framework itself | [View](workflows/evolve.md) \| [GitHub](https://github.com/moeidsaleem/agentic-engineering-framework/blob/main/workflows/evolve.md) \| [Raw](https://raw.githubusercontent.com/moeidsaleem/agentic-engineering-framework/main/workflows/evolve.md) |
 
 ### 3. The Behavior Modifiers (`modifiers/`)
 
 Optional, stackable behavior adjustments that can be appended to workflows for specific communication styles or operational modes.
 
-| Modifier | Effect |
-|----------|--------|
-| **terse.md** | Ultra-concise, information-dense communication |
-| **professional.md** | Eliminates sycophantic language and filler |
+| Modifier | Effect | Links |
+|----------|--------|-------|
+| **terse.md** | Ultra-concise, information-dense communication | [View](modifiers/terse.md) \| [GitHub](https://github.com/moeidsaleem/agentic-engineering-framework/blob/main/modifiers/terse.md) \| [Raw](https://raw.githubusercontent.com/moeidsaleem/agentic-engineering-framework/main/modifiers/terse.md) |
+| **professional.md** | Eliminates sycophantic language and filler | [View](modifiers/professional.md) \| [GitHub](https://github.com/moeidsaleem/agentic-engineering-framework/blob/main/modifiers/professional.md) \| [Raw](https://raw.githubusercontent.com/moeidsaleem/agentic-engineering-framework/main/modifiers/professional.md) |
 
 ---
 
@@ -142,22 +145,28 @@ The Manifest can be extended with project-specific rules. Add sections that comp
 ## Additional Resources
 
 ### Quick Reference
-- **`QUICK_REFERENCE.md`** - Cheat sheet for common scenarios and quick lookups
+- **[QUICK_REFERENCE.md](QUICK_REFERENCE.md)** - Cheat sheet for common scenarios and quick lookups
+- [View on GitHub](https://github.com/moeidsaleem/agentic-engineering-framework/blob/main/QUICK_REFERENCE.md) | [Raw](https://raw.githubusercontent.com/moeidsaleem/agentic-engineering-framework/main/QUICK_REFERENCE.md)
 
 ### Examples
-- **`examples/example-build.md`** - Real-world example of build workflow in action
+- **[examples/example-build.md](examples/example-build.md)** - Real-world example of build workflow in action
+- [View on GitHub](https://github.com/moeidsaleem/agentic-engineering-framework/blob/main/examples/example-build.md) | [Raw](https://raw.githubusercontent.com/moeidsaleem/agentic-engineering-framework/main/examples/example-build.md)
 
 ### Troubleshooting
-- **`TROUBLESHOOTING.md`** - Common issues and solutions
+- **[TROUBLESHOOTING.md](TROUBLESHOOTING.md)** - Common issues and solutions
+- [View on GitHub](https://github.com/moeidsaleem/agentic-engineering-framework/blob/main/TROUBLESHOOTING.md) | [Raw](https://raw.githubusercontent.com/moeidsaleem/agentic-engineering-framework/main/TROUBLESHOOTING.md)
 
 ### Best Practices
-- **`BEST_PRACTICES.md`** - Curated learnings and patterns from real-world usage
+- **[BEST_PRACTICES.md](BEST_PRACTICES.md)** - Curated learnings and patterns from real-world usage
+- [View on GitHub](https://github.com/moeidsaleem/agentic-engineering-framework/blob/main/BEST_PRACTICES.md) | [Raw](https://raw.githubusercontent.com/moeidsaleem/agentic-engineering-framework/main/BEST_PRACTICES.md)
 
 ### Security
-- **`SECURITY_CHECKLIST.md`** - Comprehensive security review checklist
+- **[SECURITY_CHECKLIST.md](SECURITY_CHECKLIST.md)** - Comprehensive security review checklist
+- [View on GitHub](https://github.com/moeidsaleem/agentic-engineering-framework/blob/main/SECURITY_CHECKLIST.md) | [Raw](https://raw.githubusercontent.com/moeidsaleem/agentic-engineering-framework/main/SECURITY_CHECKLIST.md)
 
 ### Specialized Workflows
-- **`workflows/migrate.md`** - For data migrations and system transformations
+- **[workflows/migrate.md](workflows/migrate.md)** - For data migrations and system transformations
+- [View on GitHub](https://github.com/moeidsaleem/agentic-engineering-framework/blob/main/workflows/migrate.md) | [Raw](https://raw.githubusercontent.com/moeidsaleem/agentic-engineering-framework/main/workflows/migrate.md)
 
 ---
 

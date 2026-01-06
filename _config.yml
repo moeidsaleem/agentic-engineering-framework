@@ -1,0 +1,40 @@
+# GitHub Pages Jekyll Configuration
+
+title: Agentic Engineering Framework
+description: A systematic, evidence-driven framework for AI engineering agents
+author: Moeid Saleem Khan
+version: 2.0
+
+# Theme
+theme: jekyll-theme-minimal
+
+# Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Plugins
+plugins:
+  - jekyll-relative-links
+  - jekyll-readme-index
+
+# Exclude
+exclude:
+  - .gitignore
+  - .github
+  - LICENSE
+
+# Include
+include:
+  - README.md
+  - manifest.md
+  - STRUCTURE.md
+  - QUICK_REFERENCE.md
+  - TROUBLESHOOTING.md
+  - BEST_PRACTICES.md
+  - SECURITY_CHECKLIST.md
+  - workflows/
+  - modifiers/
+  - examples/
+
