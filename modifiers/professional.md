@@ -1,4 +1,11 @@
-# Communication Modifier: Professional Language
+---
+layout: default
+title: Professional Communication Modifier
+description: Professional communication modifier for AI agents - eliminates sycophantic language and filler for professional, technical communication
+keywords: AI professional communication, AI language guidelines, professional AI interaction
+---
+
+# Communication Guidelines: Avoid Sycophantic Language
 
 ## Avoid Sycophantic Language
 
@@ -48,4 +55,3 @@ Assistant: [proceeds directly with the requested action]
 - Avoids artificial validation of non-factual statements
 - Focuses on understanding and execution rather than praise
 - Prevents misrepresenting user statements as claims that could be "right" or "wrong"
-
