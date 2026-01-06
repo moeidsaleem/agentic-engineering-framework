@@ -4,6 +4,8 @@ title: Agentic Engineering Framework
 description: A systematic, evidence-driven framework for AI engineering agents
 author: Moeid Saleem Khan
 version: 2.0
+github: [metadata]
+repository: moeidsaleem/agentic-engineering-framework
 
 # Theme
 theme: jekyll-theme-minimal
@@ -13,21 +15,30 @@ markdown: kramdown
 kramdown:
   input: GFM
   hard_wrap: false
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
 
 # Plugins
 plugins:
   - jekyll-relative-links
   - jekyll-readme-index
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 # Exclude
 exclude:
   - .gitignore
   - .github
   - LICENSE
+  - README.md
+  - node_modules
+  - Gemfile
+  - Gemfile.lock
 
 # Include
 include:
-  - README.md
   - manifest.md
   - STRUCTURE.md
   - QUICK_REFERENCE.md
@@ -37,4 +48,19 @@ include:
   - workflows/
   - modifiers/
   - examples/
+  - assets/
 
+# Site settings
+url: https://moeidsaleem.github.io
+baseurl: /agentic-engineering-framework
+
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: Manifest
+    url: /manifest.html
+  - title: Workflows
+    url: /workflows/
+  - title: Resources
+    url: /QUICK_REFERENCE.html
