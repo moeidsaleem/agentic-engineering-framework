@@ -1,3 +1,9 @@
+---
+layout: default
+title: Evolve Workflow
+description: Framework improvement & learning capture workflow
+---
+
 # Evolve Workflow: Framework Improvement & Learning Capture
 
 **Mission:** Analyze this session and improve the framework if durable lessons were learned.
@@ -150,4 +156,3 @@ This workflow analyzes the session, evaluates the framework, and updates it if n
 ---
 
 **Begin Phase 1: Session Analysis**
-

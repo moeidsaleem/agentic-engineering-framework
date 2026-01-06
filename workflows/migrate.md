@@ -1,3 +1,9 @@
+---
+layout: default
+title: Migrate Workflow
+description: Data migration & system transformation workflow
+---
+
 # Migrate Workflow: Data Migration & System Transformation
 
 **Mission:** [DESCRIBE THE MIGRATION OR TRANSFORMATION TASK]
@@ -247,4 +253,3 @@ This workflow follows a careful, reversible approach to migrations. Each phase m
 ---
 
 **Begin Phase 1: Discovery**
-

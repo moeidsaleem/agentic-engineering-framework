@@ -1,3 +1,9 @@
+---
+layout: default
+title: Build Workflow
+description: Feature development & system enhancement workflow
+---
+
 # Build Workflow: Feature Development & System Enhancement
 
 **Mission:** [YOUR HIGH-LEVEL GOAL HERE]
@@ -178,4 +184,3 @@ This workflow guides you through systematic feature development or system enhanc
 ---
 
 **Begin Phase 1: Discovery**
-

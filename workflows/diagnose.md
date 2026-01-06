@@ -1,3 +1,9 @@
+---
+layout: default
+title: Diagnose Workflow
+description: Root cause analysis & remediation workflow
+---
+
 # Diagnose Workflow: Root Cause Analysis & System Remediation
 
 **Mission:** [DESCRIBE THE PERSISTENT ISSUE OR SYSTEM FAILURE]
@@ -216,4 +222,3 @@ This workflow follows a systematic diagnostic approach. Each phase builds on the
 ---
 
 **Begin Phase 1: Symptom Documentation**
-
