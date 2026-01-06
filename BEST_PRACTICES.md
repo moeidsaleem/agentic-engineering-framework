@@ -1,3 +1,10 @@
+---
+layout: default
+title: Best Practices Library
+description: Curated best practices and patterns for AI engineering - investigation techniques, execution strategies, code quality standards, and security practices for Cursor AI
+keywords: AI engineering best practices, Cursor AI best practices, AI agent patterns, software engineering AI, AI development standards
+---
+
 # Best Practices Library
 
 **Author:** Moeid Saleem Khan  

@@ -1,3 +1,10 @@
+---
+layout: default
+title: Security Checklist
+description: Comprehensive security checklist for AI engineering - authentication, data protection, input validation, API security, and infrastructure security best practices
+keywords: AI security checklist, engineering security, authentication security, data protection, API security, security best practices
+---
+
 # Security Checklist
 
 **Author:** Moeid Saleem Khan  

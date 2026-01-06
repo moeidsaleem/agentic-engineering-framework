@@ -1,3 +1,10 @@
+---
+layout: default
+title: Terse Communication Modifier
+description: Ultra-concise communication modifier for AI agents - information-dense communication with zero filler for faster, more efficient AI interactions
+keywords: AI communication modifier, terse AI, concise AI communication, AI efficiency
+---
+
 # Communication Modifier: Terse Mode
 
 **Purpose:** Enforce ultra-concise, information-dense communication with zero filler.

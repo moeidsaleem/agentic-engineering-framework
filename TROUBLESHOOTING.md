@@ -1,3 +1,10 @@
+---
+layout: default
+title: Troubleshooting Guide
+description: Common issues and solutions for the Agentic Engineering Framework - fix agent behavior problems, workflow issues, and Cursor AI integration challenges
+keywords: Cursor AI troubleshooting, AI framework issues, agent behavior problems, workflow fixes, AI agent debugging
+---
+
 # Troubleshooting Guide
 
 **Author:** Moeid Saleem Khan  

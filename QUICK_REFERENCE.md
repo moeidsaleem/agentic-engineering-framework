@@ -1,3 +1,10 @@
+---
+layout: default
+title: Quick Reference Guide
+description: Quick reference cheat sheet for the Agentic Engineering Framework - workflow selection, status indicators, common commands, and troubleshooting tips for Cursor AI
+keywords: Cursor AI quick reference, AI framework cheat sheet, workflow selection guide, AI agent commands, Cursor AI tips
+---
+
 # Quick Reference Guide
 
 **Author:** Moeid Saleem Khan  
