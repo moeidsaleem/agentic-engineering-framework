@@ -3,12 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
   <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
-  <meta name="description" content="{{ site.description }}">
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="author" content="{{ site.author }}">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}">
+  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
+  <meta property="twitter:title" content="{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}">
+  <meta property="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>">
 </head>
 <body>
   <header>
@@ -27,11 +49,11 @@
   <nav>
     <div class="container">
       <ul class="nav-links">
-        <li><a href="{{ '/' | relative_url }}">Home</a></li>
-        <li><a href="{{ '/manifest.html' | relative_url }}">Manifest</a></li>
-        <li><a href="{{ '/workflows/' | relative_url }}">Workflows</a></li>
-        <li><a href="{{ '/QUICK_REFERENCE.html' | relative_url }}">Quick Reference</a></li>
-        <li><a href="https://github.com/{{ site.repository }}" target="_blank">GitHub</a></li>
+        <li><a href="{{ '/' | relative_url }}" {% if page.url == '/' or page.url == '/index.html' %}class="active"{% endif %}>Home</a></li>
+        <li><a href="{{ '/manifest.html' | relative_url }}" {% if page.url == '/manifest.html' %}class="active"{% endif %}>Manifest</a></li>
+        <li><a href="{{ '/workflows/' | relative_url }}" {% if page.url contains '/workflows/' %}class="active"{% endif %}>Workflows</a></li>
+        <li><a href="{{ '/QUICK_REFERENCE.html' | relative_url }}" {% if page.url == '/QUICK_REFERENCE.html' %}class="active"{% endif %}>Quick Reference</a></li>
+        <li><a href="https://github.com/{{ site.repository }}" target="_blank" rel="noopener noreferrer">GitHub</a></li>
       </ul>
     </div>
   </nav>
@@ -44,11 +66,13 @@
     <div class="container">
       <p>Created by <strong>{{ site.author }}</strong></p>
       <p>
-        <a href="https://github.com/{{ site.repository }}" target="_blank">View on GitHub</a> • 
-        <a href="https://github.com/{{ site.repository }}/issues" target="_blank">Report Issues</a>
+        <a href="https://github.com/{{ site.repository }}" target="_blank" rel="noopener noreferrer">View on GitHub</a> • 
+        <a href="https://github.com/{{ site.repository }}/issues" target="_blank" rel="noopener noreferrer">Report Issues</a>
+      </p>
+      <p style="margin-top: 1rem; font-size: 0.875rem; opacity: 0.8;">
+        Version {{ site.version }} • Last updated {{ site.last_updated | default: "2025-01-06" }}
       </p>
     </div>
   </footer>
 </body>
 </html>
-
