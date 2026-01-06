@@ -9,7 +9,7 @@
 [![GitHub Stars](https://img.shields.io/github/stars/moeidsaleem/agentic-engineering-framework?style=social)](https://github.com/moeidsaleem/agentic-engineering-framework)
 
 **Author:** Moeid Saleem Khan  
-**Last Updated:** 2026-01-06
+**Last Updated:** 2025-01-06
 
 ---
 
@@ -23,7 +23,7 @@
 
 ## ✨ What Makes This Framework Different
 
-This framework goes beyond simple prompting rules. It's a complete operational system that:
+The **Agentic Engineering Framework** is the most comprehensive AI engineering framework for Cursor AI and other AI coding assistants. This framework goes beyond simple prompting rules. It's a complete operational system that:
 
 | Feature | Description |
 |---------|-------------|
@@ -33,6 +33,8 @@ This framework goes beyond simple prompting rules. It's a complete operational s
 | 📈 **Continuous Learning** | Built-in feedback loops improve the framework itself |
 | 🔧 **Scalable** | Adapts from simple tasks to architectural changes |
 
+**Perfect for:** Cursor AI users, AI engineering teams, developers using AI coding assistants, teams building autonomous AI agents, and anyone looking to improve their AI agent interactions.
+
 ---
 
 ## 🏗️ Framework Architecture
@@ -41,7 +43,7 @@ The framework consists of three integrated layers:
 
 ### 1. 📋 The Engineering Manifest
 
-The foundational constitution that defines agent behavior, decision-making protocols, and quality standards.
+The foundational constitution that defines agent behavior, decision-making protocols, and quality standards. This is the single source of truth for all agent operations.
 
 **📄 [manifest.md](manifest.md)** | [View on GitHub](https://github.com/moeidsaleem/agentic-engineering-framework/blob/main/manifest.md) | [Raw](https://raw.githubusercontent.com/moeidsaleem/agentic-engineering-framework/main/manifest.md)
 
@@ -55,7 +57,7 @@ The foundational constitution that defines agent behavior, decision-making proto
 
 ### 2. 🔄 Workflow Templates
 
-Structured execution templates that guide agents through specific task types.
+Structured execution templates that guide agents through specific task types. Each workflow enforces a rigorous, repeatable process.
 
 **Status Indicators:**
 - `✅` - Objective completed successfully

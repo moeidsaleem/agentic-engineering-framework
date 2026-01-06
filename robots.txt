@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://moeidsaleem.github.io/agentic-engineering-framework/sitemap.xml
+
+# Disallow admin and private files
+Disallow: /_layouts/
+Disallow: /_config.yml
+Disallow: /.github/
+Disallow: /.git/
+
+# Allow all important pages
+Allow: /
+Allow: /manifest.html
+Allow: /workflows/
+Allow: /QUICK_REFERENCE.html
+Allow: /TROUBLESHOOTING.html
+Allow: /BEST_PRACTICES.html
+Allow: /SECURITY_CHECKLIST.html
+

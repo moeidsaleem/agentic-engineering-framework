@@ -1,11 +1,13 @@
 # GitHub Pages Jekyll Configuration
 
 title: Agentic Engineering Framework
-description: A systematic, evidence-driven framework for AI engineering agents
+description: The most comprehensive AI engineering framework for Cursor AI. Transform your AI agents into autonomous engineering partners with systematic workflows, best practices, and evidence-driven processes.
 author: Moeid Saleem Khan
 version: 2.0
 github: [metadata]
 repository: moeidsaleem/agentic-engineering-framework
+last_updated: 2025-01-06
+keywords: AI engineering framework, Cursor AI, AI agent framework, autonomous AI, engineering agent, AI development, AI automation, Cursor rules, AI prompting, agentic engineering, AI workflow, AI best practices
 
 # Theme - using custom layout
 theme: null

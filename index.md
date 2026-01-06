@@ -1,12 +1,14 @@
 ---
 layout: default
-title: Home
+title: Agentic Engineering Framework - AI Engineering Framework for Cursor AI
+description: The most comprehensive AI engineering framework for Cursor AI. Transform your AI agents into autonomous engineering partners with systematic workflows, best practices, and evidence-driven processes.
+keywords: AI engineering framework, Cursor AI, AI agent framework, autonomous AI, engineering agent, AI development, AI automation, Cursor rules, AI prompting, agentic engineering
 ---
 
 <div class="hero">
   <h1 style="margin-top: 0; font-size: clamp(2.5rem, 5vw, 3.5rem); line-height: 1.1;">🚀 Agentic Engineering Framework</h1>
   <p class="subtitle" style="font-size: clamp(1.125rem, 2vw, 1.375rem); color: var(--text-secondary); margin-bottom: 2rem; max-width: 700px; margin-left: auto; margin-right: auto; line-height: 1.7;">
-    A systematic, evidence-driven framework for transforming AI agents into autonomous engineering partners
+    The most comprehensive AI engineering framework for Cursor AI and AI coding assistants. Transform your AI agents into autonomous engineering partners with systematic workflows and evidence-driven processes.
   </p>
   <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-bottom: 2rem;">
     <span class="badge badge-version">v2.0</span>
@@ -16,6 +18,20 @@ title: Home
     <strong style="color: var(--text-primary); font-style: normal;">Core Philosophy:</strong> Precision through investigation. Autonomy through discipline. Excellence through verification.
   </p>
 </div>
+
+---
+
+## What is the Agentic Engineering Framework?
+
+The **Agentic Engineering Framework** is a complete operational system designed specifically for **Cursor AI** and other AI coding assistants. Unlike simple prompting rules, this framework provides:
+
+- **Systematic Workflows** - Structured processes for building, debugging, migrating, and improving
+- **Evidence-Driven Approach** - Every decision backed by investigation and verification
+- **Autonomous Execution** - Clear guardrails that enable true AI agent autonomy
+- **Continuous Improvement** - Built-in learning loops that evolve the framework itself
+- **Production-Ready** - Battle-tested patterns from real-world engineering environments
+
+**Perfect for:** Cursor AI users, AI engineering teams, developers using AI coding assistants, teams building autonomous AI agents.
 
 ---
 
@@ -129,6 +145,28 @@ title: Home
 
 ---
 
+## Why Choose This Framework?
+
+### For Cursor AI Users
+- **Optimized for Cursor** - Designed specifically for Cursor AI's workflow
+- **Easy Installation** - Copy manifest to Cursor rules, ready to use
+- **Proven Results** - Systematic approach that delivers consistent results
+- **Comprehensive** - Covers all aspects of AI-assisted development
+
+### For Engineering Teams
+- **Scalable** - Works for individual developers and entire teams
+- **Standardized** - Consistent processes across all team members
+- **Documented** - Complete documentation and examples
+- **Evolving** - Framework improves based on real-world usage
+
+### For AI Agent Developers
+- **Autonomous** - Enables true agent autonomy with clear guardrails
+- **Evidence-Based** - Every decision backed by investigation
+- **System-Wide** - Considers end-to-end impact of changes
+- **Production-Ready** - Battle-tested in real engineering environments
+
+---
+
 ## 📊 Framework Statistics
 
 <div class="stats-grid">
@@ -149,6 +187,19 @@ title: Home
     <div class="stat-label">Manifest</div>
   </div>
 </div>
+
+---
+
+## Key Features
+
+- ✅ **Systematic Workflows** - Structured processes for every task type
+- ✅ **Evidence-Driven** - Investigation before action, verification after
+- ✅ **Autonomous Execution** - Clear guardrails enable true autonomy
+- ✅ **Continuous Learning** - Framework evolves with usage
+- ✅ **Production-Ready** - Battle-tested patterns and best practices
+- ✅ **Comprehensive Documentation** - Complete guides and examples
+- ✅ **Security-First** - Built-in security checklists and practices
+- ✅ **Mobile-Friendly** - Responsive design works on all devices
 
 ---
 

@@ -5,24 +5,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   
-  <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+  <!-- Primary Meta Tags -->
+  <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }} | AI Engineering Framework</title>
+  <meta name="title" content="{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }} | AI Engineering Framework">
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   <meta name="author" content="{{ site.author }}">
-  <meta name="keywords" content="AI, engineering, framework, agent, cursor, development, automation">
+  <meta name="keywords" content="AI engineering framework, Cursor AI, AI agent framework, autonomous AI, engineering agent, AI development, AI automation, Cursor rules, AI prompting, agentic engineering, AI workflow, AI best practices, AI framework, software engineering AI, AI coding assistant">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="English">
+  <meta name="revisit-after" content="7 days">
+  <meta name="author" content="{{ site.author }}">
+  
+  <!-- Canonical URL -->
+  <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
   
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
-  <meta property="og:title" content="{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }} | AI Engineering Framework">
   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/og-image.png">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:locale" content="en_US">
   
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
-  <meta name="twitter:title" content="{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}">
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }} | AI Engineering Framework">
   <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}/assets/og-image.png">
+  <meta name="twitter:creator" content="@moeidsaleem">
   
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -37,6 +49,73 @@
   
   <!-- Theme Color -->
   <meta name="theme-color" content="#5b21b6">
+  
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "{{ site.title }}",
+    "description": "{{ site.description }}",
+    "url": "{{ site.url }}{{ site.baseurl }}",
+    "applicationCategory": "DeveloperApplication",
+    "operatingSystem": "Any",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "{{ site.author }}",
+      "url": "https://github.com/moeidsaleem"
+    },
+    "license": "https://opensource.org/licenses/MIT",
+    "codeRepository": "https://github.com/{{ site.repository }}",
+    "keywords": "AI engineering, Cursor AI, AI agent framework, autonomous AI, engineering agent, AI development",
+    "inLanguage": "en-US"
+  }
+  </script>
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "{{ site.title }}",
+    "url": "{{ site.url }}{{ site.baseurl }}",
+    "description": "{{ site.description }}",
+    "publisher": {
+      "@type": "Person",
+      "name": "{{ site.author }}"
+    },
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "{{ site.url }}{{ site.baseurl }}/search?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "{{ site.url }}{{ site.baseurl }}/"
+      }{% if page.url != '/' and page.url != '/index.html' %},
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "{{ page.title | default: 'Page' }}",
+        "item": "{{ site.url }}{{ site.baseurl }}{{ page.url }}"
+      }{% endif %}
+    ]
+  }
+  </script>
 </head>
 <body>
   <!-- Skip to main content for accessibility -->
