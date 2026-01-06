@@ -4,16 +4,16 @@ title: Home
 ---
 
 <div class="hero">
-  <h1 style="margin-top: 0; font-size: 3rem;">🚀 Agentic Engineering Framework</h1>
-  <p class="subtitle" style="font-size: 1.375rem; color: var(--text-secondary); margin-bottom: 2rem; max-width: 700px; margin-left: auto; margin-right: auto;">
+  <h1 style="margin-top: 0; font-size: clamp(2.5rem, 5vw, 3.5rem); line-height: 1.1;">🚀 Agentic Engineering Framework</h1>
+  <p class="subtitle" style="font-size: clamp(1.125rem, 2vw, 1.375rem); color: var(--text-secondary); margin-bottom: 2rem; max-width: 700px; margin-left: auto; margin-right: auto; line-height: 1.7;">
     A systematic, evidence-driven framework for transforming AI agents into autonomous engineering partners
   </p>
   <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-bottom: 2rem;">
     <span class="badge badge-version">v2.0</span>
     <span class="badge badge-license">MIT License</span>
   </div>
-  <p style="font-style: italic; color: var(--text-secondary); font-size: 1.125rem;">
-    <strong style="color: var(--text-primary);">Core Philosophy:</strong> Precision through investigation. Autonomy through discipline. Excellence through verification.
+  <p style="font-style: italic; color: var(--text-secondary); font-size: 1.125rem; line-height: 1.8;">
+    <strong style="color: var(--text-primary); font-style: normal;">Core Philosophy:</strong> Precision through investigation. Autonomy through discipline. Excellence through verification.
   </p>
 </div>
 
@@ -25,20 +25,20 @@ title: Home
   <div class="card">
     <h3><span class="card-icon">📋</span> 1. Install Manifest</h3>
     <p>Copy <a href="{{ '/manifest.html' | relative_url }}">manifest.md</a> to your Cursor rules (global or project-specific)</p>
-    <p style="margin-top: 1rem;"><a href="{{ '/manifest.html' | relative_url }}" class="btn btn-primary">View Manifest →</a></p>
+    <p style="margin-top: auto; padding-top: 1rem;"><a href="{{ '/manifest.html' | relative_url }}" class="btn btn-primary">View Manifest →</a></p>
   </div>
   <div class="card">
     <h3><span class="card-icon">🔄</span> 2. Choose Workflow</h3>
     <p>Select the appropriate workflow for your task from the workflows section</p>
-    <p style="margin-top: 1rem;"><a href="{{ '/workflows/' | relative_url }}" class="btn btn-primary">View Workflows →</a></p>
+    <p style="margin-top: auto; padding-top: 1rem;"><a href="{{ '/workflows/' | relative_url }}" class="btn btn-primary">View Workflows →</a></p>
   </div>
   <div class="card">
     <h3><span class="card-icon">✏️</span> 3. Customize</h3>
-    <p>Replace the mission placeholder with your specific goal</p>
+    <p>Replace the mission placeholder with your specific goal and customize as needed</p>
   </div>
   <div class="card">
     <h3><span class="card-icon">🚀</span> 4. Execute</h3>
-    <p>Paste into your chat and observe structured execution</p>
+    <p>Paste into your chat and observe structured execution with continuous verification</p>
   </div>
 </div>
 
@@ -49,18 +49,18 @@ title: Home
 <div class="grid">
   <div class="card">
     <h3><span class="card-icon">📋</span> Manifest</h3>
-    <p>The foundational constitution that defines agent behavior, decision-making protocols, and quality standards.</p>
-    <p style="margin-top: 1rem;"><a href="{{ '/manifest.html' | relative_url }}">View Manifest →</a></p>
+    <p>The foundational constitution that defines agent behavior, decision-making protocols, and quality standards. This is the single source of truth for all agent operations.</p>
+    <p style="margin-top: auto; padding-top: 1rem;"><a href="{{ '/manifest.html' | relative_url }}">View Manifest →</a></p>
   </div>
   <div class="card">
     <h3><span class="card-icon">🔄</span> Workflows</h3>
-    <p>Structured execution templates for specific task types: build, diagnose, migrate, and evolve.</p>
-    <p style="margin-top: 1rem;"><a href="{{ '/workflows/' | relative_url }}">View Workflows →</a></p>
+    <p>Structured execution templates for specific task types: build, diagnose, migrate, and evolve. Each workflow enforces a rigorous, repeatable process.</p>
+    <p style="margin-top: auto; padding-top: 1rem;"><a href="{{ '/workflows/' | relative_url }}">View Workflows →</a></p>
   </div>
   <div class="card">
     <h3><span class="card-icon">🎛️</span> Modifiers</h3>
-    <p>Optional behavior adjustments: terse communication and professional language.</p>
-    <p style="margin-top: 1rem;"><a href="{{ '/modifiers/' | relative_url }}">View Modifiers →</a></p>
+    <p>Optional behavior adjustments: terse communication and professional language. Stack multiple modifiers for specific scenarios.</p>
+    <p style="margin-top: auto; padding-top: 1rem;"><a href="{{ '/modifiers/' | relative_url }}">View Modifiers →</a></p>
   </div>
 </div>
 
@@ -107,23 +107,23 @@ title: Home
 <div class="grid">
   <div class="card">
     <h3><span class="card-icon">📖</span> Quick Reference</h3>
-    <p>Cheat sheet for common scenarios and quick lookups</p>
-    <p style="margin-top: 1rem;"><a href="{{ '/QUICK_REFERENCE.html' | relative_url }}">View →</a></p>
+    <p>Cheat sheet for common scenarios and quick lookups. Perfect for when you need fast access to workflow selection, status indicators, and common commands.</p>
+    <p style="margin-top: auto; padding-top: 1rem;"><a href="{{ '/QUICK_REFERENCE.html' | relative_url }}">View →</a></p>
   </div>
   <div class="card">
     <h3><span class="card-icon">🔧</span> Troubleshooting</h3>
-    <p>Common issues and solutions</p>
-    <p style="margin-top: 1rem;"><a href="{{ '/TROUBLESHOOTING.html' | relative_url }}">View →</a></p>
+    <p>Common issues and solutions. Learn how to handle agent behavior issues, file discovery problems, and workflow execution challenges.</p>
+    <p style="margin-top: auto; padding-top: 1rem;"><a href="{{ '/TROUBLESHOOTING.html' | relative_url }}">View →</a></p>
   </div>
   <div class="card">
     <h3><span class="card-icon">💡</span> Best Practices</h3>
-    <p>Curated learnings and patterns from real-world usage</p>
-    <p style="margin-top: 1rem;"><a href="{{ '/BEST_PRACTICES.html' | relative_url }}">View →</a></p>
+    <p>Curated learnings and patterns from real-world usage. Discover investigation techniques, execution strategies, and code quality standards.</p>
+    <p style="margin-top: auto; padding-top: 1rem;"><a href="{{ '/BEST_PRACTICES.html' | relative_url }}">View →</a></p>
   </div>
   <div class="card">
     <h3><span class="card-icon">🔒</span> Security Checklist</h3>
-    <p>Comprehensive security review checklist</p>
-    <p style="margin-top: 1rem;"><a href="{{ '/SECURITY_CHECKLIST.html' | relative_url }}">View →</a></p>
+    <p>Comprehensive security review checklist. Ensure authentication, data protection, input validation, and infrastructure security.</p>
+    <p style="margin-top: auto; padding-top: 1rem;"><a href="{{ '/SECURITY_CHECKLIST.html' | relative_url }}">View →</a></p>
   </div>
 </div>
 
@@ -153,11 +153,11 @@ title: Home
 ---
 
 <div class="hero" style="margin-top: 3rem;">
-  <h3 style="margin-top: 0;">Ready to Get Started?</h3>
-  <p style="margin-bottom: 1.5rem; color: var(--text-secondary); font-size: 1.125rem;">
-    Install the manifest and start using the framework today
+  <h3 style="margin-top: 0; font-size: clamp(1.75rem, 3vw, 2.25rem);">Ready to Get Started?</h3>
+  <p style="margin-bottom: 2rem; color: var(--text-secondary); font-size: 1.125rem; line-height: 1.8; max-width: 600px; margin-left: auto; margin-right: auto;">
+    Install the manifest and start using the framework today. Transform your AI agent interactions with systematic, evidence-driven workflows.
   </p>
-  <a href="https://github.com/{{ site.repository }}" class="btn btn-primary" target="_blank">
+  <a href="https://github.com/{{ site.repository }}" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
     <span>⭐</span> View on GitHub
   </a>
 </div>
