@@ -7,8 +7,8 @@ version: 2.0
 github: [metadata]
 repository: moeidsaleem/agentic-engineering-framework
 
-# Theme
-theme: jekyll-theme-minimal
+# Theme - using custom layout
+theme: null
 
 # Markdown
 markdown: kramdown
@@ -36,6 +36,7 @@ exclude:
   - node_modules
   - Gemfile
   - Gemfile.lock
+  - vendor
 
 # Include
 include:
@@ -54,13 +55,9 @@ include:
 url: https://moeidsaleem.github.io
 baseurl: /agentic-engineering-framework
 
-# Navigation
-navigation:
-  - title: Home
-    url: /
-  - title: Manifest
-    url: /manifest.html
-  - title: Workflows
-    url: /workflows/
-  - title: Resources
-    url: /QUICK_REFERENCE.html
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default

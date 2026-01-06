@@ -9,7 +9,7 @@
 [![GitHub Stars](https://img.shields.io/github/stars/moeidsaleem/agentic-engineering-framework?style=social)](https://github.com/moeidsaleem/agentic-engineering-framework)
 
 **Author:** Moeid Saleem Khan  
-**Last Updated:** 2025-01-06
+**Last Updated:** 2026-01-06
 
 ---
 

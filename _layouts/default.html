@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-content">
+        <h1>{{ site.title }}</h1>
+        <p class="subtitle">{{ site.description }}</p>
+        <div class="badges">
+          <span class="badge badge-version">v{{ site.version }}</span>
+          <span class="badge badge-license">MIT License</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <nav>
+    <div class="container">
+      <ul class="nav-links">
+        <li><a href="{{ '/' | relative_url }}">Home</a></li>
+        <li><a href="{{ '/manifest.html' | relative_url }}">Manifest</a></li>
+        <li><a href="{{ '/workflows/' | relative_url }}">Workflows</a></li>
+        <li><a href="{{ '/QUICK_REFERENCE.html' | relative_url }}">Quick Reference</a></li>
+        <li><a href="https://github.com/{{ site.repository }}" target="_blank">GitHub</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container">
+    {{ content }}
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>Created by <strong>{{ site.author }}</strong></p>
+      <p>
+        <a href="https://github.com/{{ site.repository }}" target="_blank">View on GitHub</a> • 
+        <a href="https://github.com/{{ site.repository }}/issues" target="_blank">Report Issues</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
+

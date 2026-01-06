@@ -1,107 +1,136 @@
 ---
 layout: default
-title: Agentic Engineering Framework
+title: Home
 ---
 
-<div align="center">
-
-# 🚀 Agentic Engineering Framework
-
-**A systematic, evidence-driven framework for transforming AI agents into autonomous engineering partners**
-
-[![Version](https://img.shields.io/badge/version-2.0-blue.svg)](https://github.com/moeidsaleem/agentic-engineering-framework)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![GitHub Stars](https://img.shields.io/github/stars/moeidsaleem/agentic-engineering-framework?style=social)](https://github.com/moeidsaleem/agentic-engineering-framework)
-
-**Author:** Moeid Saleem Khan  
-**Last Updated:** 2025-01-06
-
----
-
-**Core Philosophy:** *Precision through investigation. Autonomy through discipline. Excellence through verification.*
-
+<div class="text-center" style="margin-bottom: 3rem;">
+  <h1 style="margin-top: 0;">🚀 Agentic Engineering Framework</h1>
+  <p class="subtitle" style="font-size: 1.25rem; color: var(--text-secondary); margin-bottom: 2rem;">
+    A systematic, evidence-driven framework for transforming AI agents into autonomous engineering partners
+  </p>
+  <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-bottom: 2rem;">
+    <span class="badge badge-version">v2.0</span>
+    <span class="badge badge-license">MIT License</span>
+  </div>
+  <p style="font-style: italic; color: var(--text-secondary);">
+    <strong>Core Philosophy:</strong> Precision through investigation. Autonomy through discipline. Excellence through verification.
+  </p>
 </div>
 
 ---
 
-## 🎯 Quick Navigation
+## Quick Start
 
-### 📋 Core Framework
-- **[README.md](README.md)** - Main overview and usage guide
-- **[manifest.md](manifest.md)** - The Engineering Agent Manifest (core rules)
-- **[STRUCTURE.md](STRUCTURE.md)** - Framework structure documentation
-
-### 🔄 Workflows
-- **[build.md](workflows/build.md)** - Feature development & system enhancement
-- **[diagnose.md](workflows/diagnose.md)** - Root cause analysis & remediation
-- **[migrate.md](workflows/migrate.md)** - Data migration & system transformation
-- **[evolve.md](workflows/evolve.md)** - Framework improvement & learning capture
-
-### 🎛️ Modifiers
-- **[terse.md](modifiers/terse.md)** - Ultra-concise communication mode
-- **[professional.md](modifiers/professional.md)** - Eliminates sycophantic language
-
-### 📚 Supporting Resources
-- **[QUICK_REFERENCE.md](QUICK_REFERENCE.md)** - Quick reference guide
-- **[TROUBLESHOOTING.md](TROUBLESHOOTING.md)** - Troubleshooting guide
-- **[BEST_PRACTICES.md](BEST_PRACTICES.md)** - Best practices library
-- **[SECURITY_CHECKLIST.md](SECURITY_CHECKLIST.md)** - Security checklist
-
-### 📖 Examples
-- **[example-build.md](examples/example-build.md)** - Real-world build workflow example
+<div class="grid">
+  <div class="card">
+    <h3>📋 1. Install Manifest</h3>
+    <p>Copy <a href="{{ '/manifest.html' | relative_url }}">manifest.md</a> to your Cursor rules (global or project-specific)</p>
+  </div>
+  <div class="card">
+    <h3>🔄 2. Choose Workflow</h3>
+    <p>Select the appropriate workflow for your task from the <a href="{{ '/workflows/' | relative_url }}">workflows</a> section</p>
+  </div>
+  <div class="card">
+    <h3>✏️ 3. Customize</h3>
+    <p>Replace the mission placeholder with your specific goal</p>
+  </div>
+  <div class="card">
+    <h3>🚀 4. Execute</h3>
+    <p>Paste into your chat and observe structured execution</p>
+  </div>
+</div>
 
 ---
 
-## 🔗 Direct GitHub Links
+## Core Framework
 
-### Core Framework
-- [README.md](https://github.com/moeidsaleem/agentic-engineering-framework/blob/main/README.md) | [Raw](https://raw.githubusercontent.com/moeidsaleem/agentic-engineering-framework/main/README.md)
-- [manifest.md](https://github.com/moeidsaleem/agentic-engineering-framework/blob/main/manifest.md) | [Raw](https://raw.githubusercontent.com/moeidsaleem/agentic-engineering-framework/main/manifest.md)
-- [STRUCTURE.md](https://github.com/moeidsaleem/agentic-engineering-framework/blob/main/STRUCTURE.md) | [Raw](https://raw.githubusercontent.com/moeidsaleem/agentic-engineering-framework/main/STRUCTURE.md)
-
-### Workflows
-- [build.md](https://github.com/moeidsaleem/agentic-engineering-framework/blob/main/workflows/build.md) | [Raw](https://raw.githubusercontent.com/moeidsaleem/agentic-engineering-framework/main/workflows/build.md)
-- [diagnose.md](https://github.com/moeidsaleem/agentic-engineering-framework/blob/main/workflows/diagnose.md) | [Raw](https://raw.githubusercontent.com/moeidsaleem/agentic-engineering-framework/main/workflows/diagnose.md)
-- [migrate.md](https://github.com/moeidsaleem/agentic-engineering-framework/blob/main/workflows/migrate.md) | [Raw](https://raw.githubusercontent.com/moeidsaleem/agentic-engineering-framework/main/workflows/migrate.md)
-- [evolve.md](https://github.com/moeidsaleem/agentic-engineering-framework/blob/main/workflows/evolve.md) | [Raw](https://raw.githubusercontent.com/moeidsaleem/agentic-engineering-framework/main/workflows/evolve.md)
-
-### Modifiers
-- [terse.md](https://github.com/moeidsaleem/agentic-engineering-framework/blob/main/modifiers/terse.md) | [Raw](https://raw.githubusercontent.com/moeidsaleem/agentic-engineering-framework/main/modifiers/terse.md)
-- [professional.md](https://github.com/moeidsaleem/agentic-engineering-framework/blob/main/modifiers/professional.md) | [Raw](https://raw.githubusercontent.com/moeidsaleem/agentic-engineering-framework/main/modifiers/professional.md)
-
-### Supporting Resources
-- [QUICK_REFERENCE.md](https://github.com/moeidsaleem/agentic-engineering-framework/blob/main/QUICK_REFERENCE.md) | [Raw](https://raw.githubusercontent.com/moeidsaleem/agentic-engineering-framework/main/QUICK_REFERENCE.md)
-- [TROUBLESHOOTING.md](https://github.com/moeidsaleem/agentic-engineering-framework/blob/main/TROUBLESHOOTING.md) | [Raw](https://raw.githubusercontent.com/moeidsaleem/agentic-engineering-framework/main/TROUBLESHOOTING.md)
-- [BEST_PRACTICES.md](https://github.com/moeidsaleem/agentic-engineering-framework/blob/main/BEST_PRACTICES.md) | [Raw](https://raw.githubusercontent.com/moeidsaleem/agentic-engineering-framework/main/BEST_PRACTICES.md)
-- [SECURITY_CHECKLIST.md](https://github.com/moeidsaleem/agentic-engineering-framework/blob/main/SECURITY_CHECKLIST.md) | [Raw](https://raw.githubusercontent.com/moeidsaleem/agentic-engineering-framework/main/SECURITY_CHECKLIST.md)
-
-### Examples
-- [example-build.md](https://github.com/moeidsaleem/agentic-engineering-framework/blob/main/examples/example-build.md) | [Raw](https://raw.githubusercontent.com/moeidsaleem/agentic-engineering-framework/main/examples/example-build.md)
+<div class="grid">
+  <div class="card">
+    <h3>📋 Manifest</h3>
+    <p>The foundational constitution that defines agent behavior, decision-making protocols, and quality standards.</p>
+    <p><a href="{{ '/manifest.html' | relative_url }}">View Manifest →</a></p>
+  </div>
+  <div class="card">
+    <h3>🔄 Workflows</h3>
+    <p>Structured execution templates for specific task types: build, diagnose, migrate, and evolve.</p>
+    <p><a href="{{ '/workflows/' | relative_url }}">View Workflows →</a></p>
+  </div>
+  <div class="card">
+    <h3>🎛️ Modifiers</h3>
+    <p>Optional behavior adjustments: terse communication and professional language.</p>
+    <p><a href="{{ '/modifiers/' | relative_url }}">View Modifiers →</a></p>
+  </div>
+</div>
 
 ---
 
-## 🚀 Getting Started
+## Workflows
 
-1. **Install the Manifest** - Copy [`manifest.md`](manifest.md) to your Cursor rules
-2. **Choose a Workflow** - Select the appropriate workflow for your task
-3. **Customize** - Replace the mission placeholder with your goal
-4. **Execute** - Paste into your chat and observe structured execution
-
----
-
-## 📊 Framework Statistics
-
-- **4 Core Workflows** - build, diagnose, migrate, evolve
-- **2 Behavior Modifiers** - terse, professional
-- **6 Supporting Documents** - Quick reference, troubleshooting, best practices, security, examples, structure
-- **1 Comprehensive Manifest** - Core engineering rules
+| Workflow | Purpose | Link |
+|----------|---------|------|
+| **🔨 build** | Feature development & system enhancement | [View]({{ '/workflows/build.html' | relative_url }}) |
+| **🔍 diagnose** | Root cause analysis & remediation | [View]({{ '/workflows/diagnose.html' | relative_url }}) |
+| **🔄 migrate** | Data migration & system transformation | [View]({{ '/workflows/migrate.html' | relative_url }}) |
+| **📈 evolve** | Framework improvement & learning capture | [View]({{ '/workflows/evolve.html' | relative_url }}) |
 
 ---
 
-<div align="center">
+## Resources
 
-**Repository:** [agentic-engineering-framework](https://github.com/moeidsaleem/agentic-engineering-framework)
+<div class="grid">
+  <div class="card">
+    <h3>📖 Quick Reference</h3>
+    <p>Cheat sheet for common scenarios and quick lookups</p>
+    <p><a href="{{ '/QUICK_REFERENCE.html' | relative_url }}">View →</a></p>
+  </div>
+  <div class="card">
+    <h3>🔧 Troubleshooting</h3>
+    <p>Common issues and solutions</p>
+    <p><a href="{{ '/TROUBLESHOOTING.html' | relative_url }}">View →</a></p>
+  </div>
+  <div class="card">
+    <h3>💡 Best Practices</h3>
+    <p>Curated learnings and patterns from real-world usage</p>
+    <p><a href="{{ '/BEST_PRACTICES.html' | relative_url }}">View →</a></p>
+  </div>
+  <div class="card">
+    <h3>🔒 Security Checklist</h3>
+    <p>Comprehensive security review checklist</p>
+    <p><a href="{{ '/SECURITY_CHECKLIST.html' | relative_url }}">View →</a></p>
+  </div>
+</div>
 
-[⭐ Star this repo](https://github.com/moeidsaleem/agentic-engineering-framework) • [📖 Full Documentation](README.md) • [🐛 Report Issues](https://github.com/moeidsaleem/agentic-engineering-framework/issues)
+---
 
+## Framework Statistics
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; margin: 2rem 0;">
+  <div style="text-align: center; padding: 1.5rem; background: var(--bg-primary); border-radius: var(--radius); border: 1px solid var(--border);">
+    <div style="font-size: 2.5rem; font-weight: 700; color: var(--primary);">4</div>
+    <div style="color: var(--text-secondary);">Core Workflows</div>
+  </div>
+  <div style="text-align: center; padding: 1.5rem; background: var(--bg-primary); border-radius: var(--radius); border: 1px solid var(--border);">
+    <div style="font-size: 2.5rem; font-weight: 700; color: var(--primary);">2</div>
+    <div style="color: var(--text-secondary);">Modifiers</div>
+  </div>
+  <div style="text-align: center; padding: 1.5rem; background: var(--bg-primary); border-radius: var(--radius); border: 1px solid var(--border);">
+    <div style="font-size: 2.5rem; font-weight: 700; color: var(--primary);">6</div>
+    <div style="color: var(--text-secondary);">Resources</div>
+  </div>
+  <div style="text-align: center; padding: 1.5rem; background: var(--bg-primary); border-radius: var(--radius); border: 1px solid var(--border);">
+    <div style="font-size: 2.5rem; font-weight: 700; color: var(--primary);">1</div>
+    <div style="color: var(--text-secondary);">Manifest</div>
+  </div>
+</div>
+
+---
+
+<div class="text-center" style="margin-top: 3rem; padding: 2rem; background: var(--bg-primary); border-radius: var(--radius); border: 1px solid var(--border);">
+  <h3 style="margin-top: 0;">Ready to Get Started?</h3>
+  <p style="margin-bottom: 1.5rem; color: var(--text-secondary);">
+    Install the manifest and start using the framework today
+  </p>
+  <a href="https://github.com/{{ site.repository }}" class="btn btn-primary" target="_blank">
+    View on GitHub
+  </a>
 </div>
